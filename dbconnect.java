@@ -49,5 +49,4 @@ public class dbconnect {
 		stmt1.close();
 		conn.close();
 	}
-
 }
