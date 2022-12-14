@@ -10,6 +10,7 @@ INSERT INTO product(prodid,pname,price) VALUES('p2','tv',250),('p3','vcr',80);
 
 select * from product;
 
+
 INSERT INTO depot(depid,addr,volume) VALUES('d1','New York',9000),('d2','Syracuse',6000),('d4','New York',2000);
 
 INSERT INTO stock(prodid,depid,quantity) VALUES('p1','d1',1000),('p1','d2',-100);
