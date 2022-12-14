@@ -27,8 +27,8 @@ public class dbconnect {
 			stmt1 = conn.createStatement();
 			
 			
-			String sql1 = "INSERT INTO depot(depid,addr,volume) VALUES('d78','washington',70)";
-			String sql2 = "INSERT INTO stock(prodid,depid,quantity) VALUES('p1','d78',400)";
+			String sql1 = "INSERT INTO depot(depid,addr,volume) VALUES('d100','Chicago',100)";
+			String sql2 = "INSERT INTO stock(prodid,depid,quantity) VALUES('p1','100',100)";
 			stmt1.executeUpdate(sql1);
 			stmt1.executeUpdate(sql2);
 			
